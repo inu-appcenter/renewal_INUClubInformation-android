@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
         android:background="@drawable/button_border"
         app:itemIconTint="@drawable/btn_press"
         app:itemTextColor="@drawable/btn_press"

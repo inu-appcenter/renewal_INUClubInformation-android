@@ -3,23 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/home"
-        android:icon="@drawable/combined_shape"
+        android:icon="@drawable/homeonxxx"
         android:enabled="true"
         android:title="홈"
-        app:showAsAction="ifRoom">
+        app:showAsAction="withText">
     </item>
 
-    <item android:id="@+id/event"
-        android:icon="@drawable/group"
+    <item android:id="@+id/recruit"
+        android:icon="@drawable/peopleonxxx"
         android:enabled="true"
-        android:title="행사"
-        app:showAsAction="ifRoom">
+        android:title="모집"
+        app:showAsAction="withText">
+    </item>
+
+    <item android:id="@+id/notice"
+        android:icon="@drawable/noticeonxxx"
+        android:enabled="true"
+        android:title="공지"
+        app:showAsAction="withText">
     </item>
 
     <item android:id="@+id/setting"
-        android:icon="@drawable/group_3"
+        android:icon="@drawable/setonxxx"
         android:title="설정"
         android:enabled="true"
-        app:showAsAction="ifRoom">
+        app:showAsAction="withText">
     </item>
 </menu>
